@@ -1,0 +1,32 @@
+.wrapper-skills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 60px;
+
+}
+
+.skill{
+    width: 47% !important;
+}
+
+.skill .name-skill{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #495057;
+    margin-bottom: 10px;
+}
+
+.skill .progress {
+    background: #ff7a57 !important;
+    border-radius: 0.2rem;
+    height: 3px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .skill{
+        width: 100% !important
+    }
+}

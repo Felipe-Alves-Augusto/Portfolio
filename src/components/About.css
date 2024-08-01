@@ -1,0 +1,23 @@
+.about {
+    margin-top: 150px;
+}
+
+.about p {
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
+    letter-spacing: .6px;
+    color: #495057;
+    max-width: 700px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .about p{
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .about {
+        margin-top: 50px;
+    }
+}

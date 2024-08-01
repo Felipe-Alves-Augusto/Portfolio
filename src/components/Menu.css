@@ -1,0 +1,17 @@
+.header{
+    height: 55px;
+}
+
+.header .menu li a {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s
+}
+
+.header .menu li a:hover {
+    color: #ff7a57;
+}
+
+.header .menu li a.active {
+    color: #ff7a57;
+}

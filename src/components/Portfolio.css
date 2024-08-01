@@ -1,0 +1,21 @@
+.portfolio {
+    margin-top: 50px;
+}
+
+.portfolio ul {
+    list-style: none;
+    text-align: center;
+}
+
+.portfolio ul a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #495057;
+    margin-bottom: 10px;
+    display: block;
+    transition: 0.3s;
+}
+
+.portfolio ul a:hover {
+    color: #ff7a57;
+}
